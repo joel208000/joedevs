@@ -1,0 +1,734 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Tw Cen Mt';
+    font-size: 14px;
+    margin: 0;
+    
+}
+
+.acc{
+    
+    background-image: url(death-164761_640\ \(1\).jpg);
+    background-size: cover;
+        /* Ajuste la taille de l'image pour couvrir tout l'élément */
+        background-repeat: no-repeat;
+        /* Empêche la répétition de l'image */
+        background-position: center center;
+        background-attachment: fixed;
+    
+}
+
+
+.bii{
+    
+    background-image: url(Lucky-Jet-Telegram-Channel.gif);
+    background-size: cover;
+        /* Ajuste la taille de l'image pour couvrir tout l'élément */
+        background-repeat: no-repeat;
+        /* Empêche la répétition de l'image */
+        background-position: center center;
+        background-attachment: fixed;
+    
+}
+
+
+
+.cont{
+    
+    background-image: url(paris-sportifs-direct-chapitrage.jpg);
+    background-size: cover;
+        /* Ajuste la taille de l'image pour couvrir tout l'élément */
+        background-repeat: no-repeat;
+        /* Empêche la répétition de l'image */
+        background-position: center center;
+        background-attachment: fixed;
+    
+}
+
+
+.reseaux {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,50%);
+    width: 60%;
+}  
+
+.reseaux a {
+    text-decoration: none;
+}
+
+.reseaux img {
+    display: block;
+    margin: -50px;
+}
+
+
+#icons {
+    display: none;
+    cursor: pointer;
+    color: #f15f0a;
+   
+}
+/*Menu Burger */
+.menu-burger {
+    display: none;
+    list-style: none;
+}
+
+header{
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: calc(0.5rem + 1.5vw);
+}
+
+nav .logo{
+    width: 170px;
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: #2eb0f0;
+}
+
+
+.text {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9rem;
+}
+
+.text h1 {
+    font-size: 7vw; 
+    margin-bottom: 2rem;
+    
+}
+
+.text p {
+    font-size: 1rem; 
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem; 
+   
+
+}
+
+
+.text a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem; 
+    border: 1px solid #2eb0f0;
+    color: #2eb0f0;
+    padding: 8px 16px; 
+    margin-right: 20px; 
+}
+
+
+
+
+.text a.cv {
+    color: #121212;
+    background-color:#2eb0f0;
+    font-weight: 600;
+    
+}
+
+
+
+
+h1 .auto-typing{
+    color: #2eb0f0;
+}
+ /* Ajoutez votre style CSS ici */
+ .hidden {
+    display: none;
+}
+.ut{
+    color: rgba(233, 99, 10, 0.897);
+    background-image: url(./Images/concept-amenagement-casino-ligne-cartes-jouer-jetons-poker-ligne-roulette-paris-sportifs-football-vegas-jeu-machine-sous-decorations-creatives_771426-3016.avif);
+    background-size: cover;
+        /* Ajuste la taille de l'image pour couvrir tout l'élément */
+        background-repeat: no-repeat;
+        /* Empêche la répétition de l'image */
+        background-position: center center;
+        background-attachment: fixed;
+
+}
+.lorem{
+    margin-left: 30px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.pine{
+    margin-left: 135px;
+    border-radius: 5px; 
+    border: 3px solid rgba(149, 10, 230, 0.555);
+}
+
+
+/* Services */
+.paie, .faites {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+ /* .p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}  */
+
+.numero-de-depot {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.numero-de-depot p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.numero-de-depot img {
+    vertical-align: middle;
+}
+
+.formule {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+
+.formule span {
+    font-weight: bold;
+}
+
+.gold {
+    color:red;
+}
+.diamond {
+    color: darkturquoise;
+}
+.argent {
+    color: rgb(9, 16, 16);
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label,
+form input {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+form input[type="text"],
+form input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    background-color:#121212;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background-color:#121212;
+}
+
+
+/*Historique de paris*/
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.image-container div {
+    flex: 0 0 calc(33.3333% - 20px);
+    max-width: calc(33.3333% - 20px);
+}
+
+.image-container img {
+        width: 300px; /* Définissez la largeur de base */
+        height: 300px; /* Définissez la hauteur de base */
+        object-fit: cover; /* Évite toute déformation tout en couvrant la zone spécifiée */
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+.image-container p {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container div {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image-container div {
+        flex: 0 0 calc(100% - 20px);
+        max-width: calc(100% - 20px);
+    }
+}
+
+
+
+
+
+/*RESPONSIVE */
+
+/*Home Page */
+
+@media screen and (min-width:1023px) {
+    
+   
+   
+    
+header{
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0 10px;
+}
+
+nav .logo{
+    width: 170px;
+}
+nav .menu{
+    position: absolute;
+    right: 105px;
+    width: 45px;
+    cursor: pointer;
+}
+nav ul{
+    padding-right: 40px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: #2eb0f0;
+}
+
+.text {
+    padding: 70px 0;
+    color: white;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text h1{
+    font-size: 75px;
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+.text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.text a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: 1px solid #2eb0f0;
+    color: #2eb0f0;
+    padding: 10px 20px;
+    margin-right: 30px;
+}
+
+.text a.cv {
+    color: #121212;
+    background-color:#2eb0f0;
+    font-weight: 600;
+    
+}
+
+
+
+
+h1 .auto-typing{
+    color: #2eb0f0;
+}
+
+.lorem{
+    margin-left: 30px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.pine{
+    margin-left: 135px;
+    border-radius: 5px; 
+    border: 3px solid rgba(149, 10, 230, 0.555);
+}
+
+    
+}
+
+@media  screen and (max-width:1023px) {
+    nav ul {
+        padding: 0;
+    }
+    
+    .text h1 {
+        color: #fff;
+        font-size: 28px;
+        line-height: 1;
+    }
+    .text p {
+        margin-top: 4rem;
+        color: #fff;
+    }
+   #icons {
+    display: block;
+    z-index: 5;
+   }
+  
+
+   #icons::before {
+    content: "\2630";
+   }
+
+   .active #icons::before {
+        content: "\2715";
+
+   }
+
+   nav ul {
+    position: fixed;
+    flex-direction: column;
+    color: rgb(27, 27, 27);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    left: -100%;
+    top: 5%;
+    text-align: center;
+    transition: 0.25s;
+    padding-bottom: 1rem;
+   }
+
+   nav li {
+    padding: 3px 0;
+   }
+
+
+   nav.active ul {
+    left: 0;
+   }
+
+   /* .text h1 {
+    font-size: 40px; 
+}
+
+.text p {
+    font-size: 1.2rem; 
+    margin-bottom: 1rem;
+} */
+
+.text a {
+    font-size: 1.2rem; 
+    padding: 6px 12px; 
+    margin-right: 15px; 
+}
+
+.reseaux {
+    width: 90%; 
+}
+.reseaux img {
+    width: 100px; 
+    height: 100px;
+}
+
+.overlayy .lorem {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+}
+
+@media  screen and (max-width: 768px) {
+    .text h1 {
+        color: #fff;
+        font-size: 28px;
+        line-height: 1;
+    }
+    .text p {
+        margin-top: 4rem;
+        color: #fff;
+    }
+   #icons {
+    display: block;
+    z-index: 5;
+   }
+  
+
+   #icons::before {
+    content: "\2630";
+   }
+
+   .active #icons::before {
+        content: "\2715";
+
+   }
+
+   nav ul {
+    position: fixed;
+    flex-direction: column;
+    color: rgb(27, 27, 27);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    left: -100%;
+    top: 5%;
+    text-align: center;
+    transition: 0.25s;
+    padding-bottom: 1rem;
+   }
+
+   nav li {
+    padding: 3px 0;
+   }
+
+
+   nav.active ul {
+    left: 0;
+   }
+
+
+
+.text a {
+    font-size: 1.2rem; 
+    padding: 6px 12px; 
+    margin-right: 15px; 
+}
+
+.reseaux {
+    width: 90%; 
+}
+.reseaux img {
+    width: 100px; 
+    height: 100px;
+}
+
+.overlayy .lorem {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    .reseaux {
+        width: 90%;
+    }
+    .reseaux img {
+        width: 80px;
+        height: 80px;
+    }
+    img.tik{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 10px;
+    }
+
+    .overlayy .lorem {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .overlayy img {
+        width: 50%;
+    }
+    nav .logo {
+        max-width: 80%;
+    }
+
+    .text {
+        padding-top: 6rem;
+    }
+
+    .text h1 {
+        color: #fff;
+        font-size: 28px;
+        margin-bottom: 1.5rem;
+    }
+
+    .text p {
+        color: #fff;
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
+    .text a {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    nav .logo {
+        max-width: 80%;
+    }
+
+    .text {
+        padding-top: 6rem;
+    }
+
+    .text h1 {
+        color: #fff;
+        font-size: 19.5px;
+        margin-bottom: 1.5rem;
+    }
+
+    .text p {
+        color: #fff;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
+    .text a {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+        margin-right: 15px;
+    }
+    
+   
+      .overlayy .lorem {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .overlayy img {
+        width: 50%;
+        
+    } 
+    
+   
+   
+}
+@media screen and (max-width: 280px) {
+    nav .logo {
+        max-width: 80%;
+    }
+
+    .text {
+        padding-top: 6rem;
+    }
+
+    .text h1 {
+        color: #fff;
+        font-size: 17px;
+        margin-bottom: 1.5rem;
+    }
+
+    .text p {
+        color: #fff;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
+    .text a {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+        margin-right: 15px;
+    }
+    
+   
+      .overlayy .lorem {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .overlayy img {
+        width: 50%;
+        
+    } 
+    
+   
+   
+}
